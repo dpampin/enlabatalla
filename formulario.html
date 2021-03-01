@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Mañana en la pandemia piensa en mí</title>
+	 <meta charset="utf-8">
+	<link rel="stylesheet" href="styles.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="form">
+<h1>Formulario de suscripción</h1>
+<h2>Newsletter</h2>
+<form action="leer.php" method="POST" enctype="multipart/form-data">
+Nombres <input type="TEXT" name="nombre">
+<br>
+Apellidos <input type="TEXT" name="apellido">
+<br>
+Edad <input type="TEXT" name="edad">
+<br> 
+Es casado/a<br>
+si <input type="radio" name="pc" value="si">
+no <input type="radio" name="pc" value="no">
+<br>
+Elegir password <input type="password">
+<br>
+Desea suscribirse al Newsletter?
+<br>
+si <input type="checkbox" name="news" value="si" checked>
+<br>
+Ingrese su correo 
+<input type="text" name="correo">
+<br>
+Seleccione su pais<br>
+<select name="país">
+	<option selected> Elija </option>
+	<option value="ARG"> Argentina </option>
+	<option value="BRA"> Brasil </option>
+	<option value="CHI"> Chile </option>
+	<option value="URU"> Uruguay </option>
+</select>
+<br>
+Ingrese sus comentarios<p>
+<textarea name="comentarios" cols="50" rows="10">
+	Escriba aqui
+</textarea>
+<p>
+	Ingrese una fecha
+	<br>
+<input type="date" name="calendario"
+value="2020-01-01"
+min="1970-01-01" max="2020-12-31"> <p> 
+
+Suba su foto
+<input type="file" value="archivo">
+<br>
+<input type="submit" value="enviar datos">
+<input type="reset" value="borrar datos">
+</form>
+<br>
+<a href="index.html">Home</a>
+<blockquote></blockquote>
+<a href="films.html">Films</a>
+<blockquote></blockquote>
+<a href="libros.html">Libros</a>
+<blockquote></blockquote>
+<a href="notas.html">Notas</a>
+<blockquote></blockquote>
+<a href="formulario.html">Newsletter</a>
+</div>
+</body>
+</html>
